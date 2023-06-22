@@ -19,7 +19,7 @@ export function buildPlugins(options: BuildOptions): webpack.WebpackPluginInstan
         }),
     ];
 
-    if (__IS_DEVELOPMENT__) {
+    if (options.isInDevelopmentMode) {
         plugins.push(new webpack.HotModuleReplacementPlugin());
         plugins.push(
             new BundleAnalyzerPlugin({
