@@ -1,0 +1,36 @@
+.chip {
+    border-radius: 10px;
+    padding-block: 10px;
+    padding-inline: 24px;
+    width: fit-content;
+}
+
+.contained {
+    background-color: var(--contrast-background-color);
+    color: var(--main-text-color);
+}
+
+.colored_primary {
+    background-color: var(--color-primary-25);
+    color: var(--color-primary-100);
+}
+
+.colored_secondary {
+    background-color: var(--color-secondary);
+    color: var(--color-on-secondary);
+}
+
+.colored_blue {
+    background-color: var(--color-light-blue);
+    color: var(--color-blue);
+}
+
+.colored_green {
+    background-color: var(--color-light-green);
+    color: var(--color-green);
+}
+
+.colored_red {
+    background-color: var(--color-light-red);
+    color: var(--color-red);
+}

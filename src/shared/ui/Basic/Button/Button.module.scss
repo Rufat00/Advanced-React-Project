@@ -1,0 +1,142 @@
+@import "@/app/styles/mixins/mixins.scss";
+
+.button {
+    background: none;
+    border: none;
+    outline: none;
+    vertical-align: middle;
+    user-select: none;
+    font: var(--font-body-1);
+    cursor: pointer;
+    border-radius: var(--ui-border-radius);
+    overflow: hidden;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    margin: 0;
+}
+
+.icon {
+    display: inherit;
+
+    svg {
+        height: var(--headline-4-size);
+        width: var(--headline-4-size);
+        display: block;
+    }
+}
+
+.left {
+    margin-right: 8px;
+    margin-left: -4px;
+}
+
+.right {
+    margin-left: 8px;
+    margin-right: -4px;
+}
+
+.text {
+    padding-block: 10px;
+    padding-inline: 24px;
+    color: var(--color-primary);
+    transition: background 250ms;
+
+    @include hover {
+        background-color: var(--color-primary-25);
+    }
+
+    @include focus {
+        background-color: var(--color-primary-25);
+    }
+
+    &:disabled {
+        pointer-events: none;
+        filter: grayscale(100%) opacity(60%);
+
+        .icon {
+            svg {
+                filter: grayscale(100%) opacity(60%);
+            }
+        }
+    }
+
+    .icon {
+        svg {
+            fill: var(--color-primary);
+        }
+    }
+}
+
+.contained {
+    padding-block: 10px;
+    padding-inline: 24px;
+    color: var(--color-on-primary);
+    background-color: var(--color-primary);
+    transition: filter 250ms;
+
+    &:disabled {
+        pointer-events: none;
+        filter: grayscale(100%) opacity(60%);
+    }
+
+    @include hover {
+        filter: brightness(85%);
+    }
+
+    @include focus {
+        filter: brightness(85%);
+    }
+}
+
+.contained .icon {
+    svg {
+        fill: var(--color-on-primary);
+    }
+}
+
+.contained:disabled .icon {
+    svg {
+        filter: grayscale(100%) opacity(60%);
+    }
+}
+
+.outlined {
+    padding-block: 10px;
+    padding-inline: 24px;
+    color: var(--color-primary);
+    transition: background 250ms, color 250ms, fill 250ms;
+    border: 1px solid var(--color-primary);
+
+    &:disabled {
+        pointer-events: none;
+        filter: grayscale(100%) opacity(60%);
+    }
+
+    @include hover {
+        background-color: var(--color-primary-25);
+    }
+
+    @include focus {
+        background-color: var(--color-primary-25);
+    }
+}
+
+.outlined:disabled .icon {
+    svg {
+        filter: grayscale(100%) opacity(60%);
+    }
+}
+
+.outlined .icon {
+    svg {
+        fill: var(--color-primary);
+    }
+}
+
+.clear {
+    color: var(--color-on-background);
+}
