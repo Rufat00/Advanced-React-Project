@@ -1,71 +1,59 @@
 .app.light {
-    --color-background: rgba(255, 255, 255, 1);
-    --color-background-75: rgba(255, 255, 255, 0.75);
-    --color-background-50: rgba(255, 255, 255, 0.5);
-    --color-background-25: rgba(255, 255, 255, 0.25);
-    --color-background-10: rgba(255, 255, 255, 0.1);
-    --color-background-5: rgba(255, 255, 255, 0.05);
-
-    --color-on-background: rgb(10, 10, 10, 1);
-    --color-on-background-75: rgba(10, 10, 10, 0.75);
-    --color-on-background-50: rgba(10, 10, 10, 0.5);
-    --color-on-background-25: rgba(10, 10, 10, 0.25);
-    --color-on-background-10: rgba(10, 10, 10, 0.1);
-    --color-on-background-5: rgba(10, 10, 10, 0.05);
-
-    --color-surface: rgba(246, 246, 246, 1);
-    --color-surface-75: rgba(246, 246, 246, 0.75);
-    --color-surface-50: rgba(246, 246, 246, 0.5);
-    --color-surface-25: rgba(246, 246, 246, 0.25);
-    --color-surface-10: rgba(246, 246, 246, 0.1);
-    --color-surface-5: rgba(246, 246, 246, 0.05);
-
-    --color-on-surface: rgba(15, 15, 15, 1);
-    --color-on-surface-75: rgba(15, 15, 15, 0.75);
-    --color-on-surface-50: rgba(15, 15, 15, 0.5);
-    --color-on-surface-25: rgba(15, 15, 15, 0.25);
-    --color-on-surface-10: rgba(15, 15, 15, 0.1);
-    --color-on-surface-5: rgba(15, 15, 15, 0.05);
-
-    --color-ourline: rgb(143, 146, 153);
-
-    --color-primary: rgba(15, 97, 255, 1);
-    --color-primary-75: rgba(15, 97, 255, 0.75);
-    --color-primary-50: rgba(15, 97, 255, 0.5);
-    --color-primary-25: rgba(15, 97, 255, 0.25);
-    --color-primary-10: rgba(15, 97, 255, 0.1);
-    --color-primary-5: rgba(15, 97, 255, 0.05);
-
-    --color-on-primary: rgba(255, 255, 255, 1);
-    --color-on-primary-75: rgba(255, 255, 255, 0.75);
-    --color-on-primary-50: rgba(255, 255, 255, 0.5);
-    --color-on-primary-25: rgba(255, 255, 255, 0.25);
-    --color-on-primary-10: rgba(255, 255, 255, 0.1);
-    --color-on-primary-5: rgba(255, 255, 255, 0.05);
-
+    --color-background: rgb(255 255 255 / 100%);
+    --color-background-75: rgb(255 255 255 / 75%);
+    --color-background-50: rgb(255 255 255 / 50%);
+    --color-background-25: rgb(255 255 255 / 25%);
+    --color-background-10: rgb(255 255 255 / 10%);
+    --color-background-5: rgb(255 255 255 / 5%);
+    --color-on-background: rgb(10 10 10 / 100%);
+    --color-on-background-75: rgb(10 10 10 / 75%);
+    --color-on-background-50: rgb(10 10 10 / 50%);
+    --color-on-background-25: rgb(10 10 10 / 25%);
+    --color-on-background-10: rgb(10 10 10 / 10%);
+    --color-on-background-5: rgb(10 10 10 / 5%);
+    --color-surface: rgb(246 246 246 / 100%);
+    --color-surface-75: rgb(246 246 246 / 75%);
+    --color-surface-50: rgb(246 246 246 / 50%);
+    --color-surface-25: rgb(246 246 246 / 25%);
+    --color-surface-10: rgb(246 246 246 / 10%);
+    --color-surface-5: rgb(246 246 246 / 5%);
+    --color-on-surface: rgb(15 15 15 / 100%);
+    --color-on-surface-75: rgb(15 15 15 / 75%);
+    --color-on-surface-50: rgb(15 15 15 / 50%);
+    --color-on-surface-25: rgb(15 15 15 / 25%);
+    --color-on-surface-10: rgb(15 15 15 / 10%);
+    --color-on-surface-5: rgb(15 15 15 / 5%);
+    --color-ourline: rgb(143 146 153);
+    --color-primary: rgb(15 97 255 / 100%);
+    --color-primary-75: rgb(15 97 255 / 75%);
+    --color-primary-50: rgb(15 97 255 / 50%);
+    --color-primary-25: rgb(15 97 255 / 25%);
+    --color-primary-10: rgb(15 97 255 / 10%);
+    --color-primary-5: rgb(15 97 255 / 5%);
+    --color-on-primary: rgb(255 255 255 / 100%);
+    --color-on-primary-75: rgb(255 255 255 / 75%);
+    --color-on-primary-50: rgb(255 255 255 / 50%);
+    --color-on-primary-25: rgb(255 255 255 / 25%);
+    --color-on-primary-10: rgb(255 255 255 / 10%);
+    --color-on-primary-5: rgb(255 255 255 / 5%);
     --color-secondary: #ff991f;
-    --color-secondary-75: rgba(255, 153, 31, 0.75);
-    --color-secondary-50: rgba(255, 153, 31, 0.5);
-    --color-secondary-25: rgba(255, 153, 31, 0.25);
-    --color-secondary-10: rgba(255, 153, 31, 0.1);
-    --color-secondary-5: rgba(255, 153, 31, 0.05);
-
-    --color-on-secondary: rgba(255, 255, 255, 1);
-    --color-on-secondary-75: rgba(255, 255, 255, 0.75);
-    --color-on-secondary-50: rgba(255, 255, 255, 0.5);
-    --color-on-secondary-25: rgba(255, 255, 255, 0.25);
-    --color-on-secondary-10: rgba(255, 255, 255, 0.1);
-    --color-on-secondary-5: rgba(255, 255, 255, 0.05);
-
+    --color-secondary-75: rgb(255 153 31 / 75%);
+    --color-secondary-50: rgb(255 153 31 / 50%);
+    --color-secondary-25: rgb(255 153 31 / 25%);
+    --color-secondary-10: rgb(255 153 31 / 10%);
+    --color-secondary-5: rgb(255 153 31 / 5%);
+    --color-on-secondary: rgb(255 255 255 / 100%);
+    --color-on-secondary-75: rgb(255 255 255 / 75%);
+    --color-on-secondary-50: rgb(255 255 255 / 50%);
+    --color-on-secondary-25: rgb(255 255 255 / 25%);
+    --color-on-secondary-10: rgb(255 255 255 / 10%);
+    --color-on-secondary-5: rgb(255 255 255 / 5%);
     --gradient-primary: linear-gradient(270deg, #b176f2 0%, #fac1f1 94%);
     --gradient-secondary: linear-gradient(270deg, #ffc887 0%, #fff1e0 94%);
-
-    --color-error: rgba(255, 60, 49, 1);
-    --color-on-error: rgba(255, 60, 49, 0.2);
-
-    --color-success: rgba(0, 158, 104, 1);
-    --color-on-success: rgba(0, 158, 104, 0.2);
-
-    --color-error: rgba(255, 197, 61, 1);
-    --color-on-error: rgba(255, 197, 61, 0.2);
+    --color-error: rgb(255 60 49 / 100%);
+    --color-on-error: rgb(255 60 49 / 20%);
+    --color-success: rgb(0 158 104 / 100%);
+    --color-on-success: rgb(0 158 104 / 20%);
+    --color-warning: rgb(255 197 61 / 100%);
+    --color-on-warning: rgb(255 197 61 / 20%);
 }

@@ -17,7 +17,7 @@ $mouse-device-focus: "(focus: focus) and (pointer: fine)";
     }
 }
 
-$breakPoints: (
+$break-points: (
     "X-Large": "1400px",
     "Large": "1200px",
     "Medium": "992px",
@@ -25,8 +25,8 @@ $breakPoints: (
     "Extra-small": "576px",
 );
 
-@mixin breakPoint($size) {
-    @media (max-width: map-get($breakPoints, $size)) {
+@mixin break-point($size) {
+    @media (max-width: map-get($break-points, $size)) {
         @content;
     }
 }

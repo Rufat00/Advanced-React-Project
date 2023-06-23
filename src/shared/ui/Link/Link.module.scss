@@ -7,7 +7,7 @@
     display: inline-block;
     position: relative;
 
-    &:before {
+    &::before {
         content: "";
         background: var(--main-text-color);
         display: block;
