@@ -1,5 +1,5 @@
 import { useTheme } from "@/app/providers/ThemeProvider";
-import { Button } from "@/shared/ui/Button/Button";
+import { Button } from "@/shared/ui/Basic/Button/Button";
 import styles from "./style.module.scss";
 import SunIcon from "@/shared/assets/icons/sun.svg";
 import MoonIcon from "@/shared/assets/icons/moon.svg";

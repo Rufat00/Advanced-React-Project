@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import { Button } from "@/shared/ui/Button/Button";
+import { Button } from "@/shared/ui/Basic/Button/Button";
 import styles from "./style.module.scss";
 import { classNames } from "@/shared/lib/classNames/classNames";
 
