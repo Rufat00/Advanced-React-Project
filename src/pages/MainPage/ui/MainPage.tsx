@@ -1,9 +1,7 @@
-import { Text } from "@/shared/ui/DataDisplay/Text/Text";
+import { FC } from "react";
 
-const MainPage = () => (
-    <h1>
-        <Text i18nKey="hello world" />
-    </h1>
-);
+const MainPage: FC = () => {
+    return <div></div>;
+};
 
 export default MainPage;

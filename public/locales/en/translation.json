@@ -1,5 +1,7 @@
 {
-  "hello world": "hello world",
-  "Page not found": "Page not found.",
-  "Something went wrong": "Something went wrong."
+    "hello world": "hello world",
+    "Page not found": "Page not found.",
+    "Something went wrong": "Something went wrong.",
+    "language": "language",
+    "lang": "RU"
 }

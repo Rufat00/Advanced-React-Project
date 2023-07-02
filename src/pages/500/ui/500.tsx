@@ -1,4 +1,4 @@
-import { Text } from "@/shared/ui/DataDisplay/Text/Text";
+import { Text } from "@/shared/ui/Text/Text";
 import styles from "./style.module.scss";
 
 const ErrorPage = () => {

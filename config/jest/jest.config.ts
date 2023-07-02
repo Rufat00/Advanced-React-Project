@@ -1,5 +1,3 @@
-import path from "path";
-
 export default {
     clearMocks: true,
     testEnvironment: "jsdom",
@@ -10,7 +8,7 @@ export default {
     moduleNameMapper: {
         "@/(.*)": "<rootDir>src/$1",
         "\\.s?css$": "identity-obj-proxy",
-        "\\.svg": path.resolve(__dirname, "jestSvgComponent.tsx"),
+        "\\.svg$": "<rootDir>__mocks__/svg.js",
     },
     testMatch: ["<rootDir>src/**/*(*.)@(spec|test).[tj]s?(x)"],
     rootDir: "../../",
