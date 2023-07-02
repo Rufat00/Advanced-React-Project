@@ -4,7 +4,8 @@ import { classNames } from "@/shared/lib/classNames/classNames";
 import { AppRouter } from "./router";
 import { Navbar } from "@/widgets/Navbar";
 import { Suspense } from "react";
-import { PageLoader } from "@/widgets/PageLoader/PageLoader";
+import { PageLoader } from "@/shared/ui/PageLoader/PageLoader";
+import { Sidebar } from "@/widgets/Sidebar";
 
 const App = () => {
     const { theme } = useTheme();
@@ -13,7 +14,10 @@ const App = () => {
         <div className={classNames("app", theme)}>
             <Suspense fallback={<PageLoader />}>
                 <Navbar />
-                <AppRouter />
+                <div className="content_page">
+                    <Sidebar />
+                    <AppRouter />
+                </div>
             </Suspense>
         </div>
     );

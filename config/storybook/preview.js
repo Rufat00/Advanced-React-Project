@@ -65,6 +65,7 @@ const withI18next = (Story, context) => {
     const { locale } = context.globals;
 
     useEffect(() => {
+        console.log("olk");
         i18n.changeLanguage(locale);
     }, [locale]);
 

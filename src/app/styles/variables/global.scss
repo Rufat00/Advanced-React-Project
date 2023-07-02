@@ -1,80 +1,15 @@
 :root {
-    --font-family-main: calibry, sans-serif;
-
-    //* Headline-1
-
-    --headline-1-size: 36px;
-    --headline-1-line: 40px;
-    --font-headline-1: var(--headline-1-size) / var(--headline-1-line) var(--font-family-main);
-
-    //* Headline-2
-
-    --headline-2-size: 30px;
-    --headline-2-line: 36px;
-    --font-headline-2: var(--headline-2-size) / var(--headline-2-line) var(--font-family-main);
-
-    //* Headline-3
-
-    --headline-3-size: 24px;
-    --headline-3-line: 30px;
-    --font-headline-3: var(--headline-3-size) / var(--headline-3-line) var(--font-family-main);
-
-    //* Headline-4
-
-    --headline-4-size: 20px;
-    --headline-4-line: 24px;
-    --font-headline-4: var(--headline-4-size) / var(--headline-4-line) var(--font-family-main);
-
-    //* Headline-5
-
-    --headline-5-size: 16px;
-    --headline-5-line: 18px;
-    --font-headline-5: var(--headline-5-size) / var(--headline-5-line) var(--font-family-main);
-
-    //* Headline-6
-
-    --headline-6-size: 12px;
-    --headline-6-line: 14px;
-    --font-headline-6: var(--headline-6-size) / var(--headline-6-line) var(--font-family-main);
-
-    //* Subtitle-1
-
-    --subtitle-1-size: 16px;
-    --subtitle-1-line: 24px;
-    --font-subtitle-1: var(--subtitle-1-size) / var(--subtitle-1-line) var(--font-family-main);
-
-    //* Subtitle-2
-
-    --subtitle-2-size: 14px;
-    --subtitle-2-line: 24px;
-    --font-subtitle-2: var(--subtitle-2-size) / var(--subtitle-2-line) var(--font-family-main);
-
-    //* Body-1
-
-    --body-1-size: 16px;
-    --body-1-line: 24px;
-    --font-body-1: var(--body-1-size) / var(--body-1-line) var(--font-family-main);
-
-    //* Body-2
-
-    --body-2-size: 14px;
-    --body-2-line: 20px;
-    --font-body-2: var(--body-2-size) / var(--body-2-line) var(--font-family-main);
-
-    //* UI
-
-    --ui-step: 4px;
-
-    //* UI-z-index
-
-    --ui-z-index-1: 1;
-    --ui-z-index-2: 2;
-    --ui-z-index-3: 3;
-    --ui-z-index-4: 4;
-    --ui-z-index-5: 5;
-    --ui-z-index-6: 6;
-
-    //* UI-border-radius
-
-    --ui-border-radius: 10px;
+    --font-family-main: consolas, "Times New Roman", serif;
+    --font-size-m: 16px;
+    --font-line-m: 24px;
+    --font-m: var(--font-size-m) / var(--font-line-m) var(--font-family-main);
+    --font-size-l: 24px;
+    --font-line-l: 32px;
+    --font-l: var(--font-size-l) / var(--font-line-l) var(--font-family-main);
+    --font-size-xl: 32px;
+    --font-line-xl: 40px;
+    --font-xl: var(--font-size-xl) / var(--font-line-xl) var(--font-family-main);
+    --navbar-height: 50px;
+    --sidebar-width: 300px;
+    --sidebar-width-collapsed: 80px;
 }
